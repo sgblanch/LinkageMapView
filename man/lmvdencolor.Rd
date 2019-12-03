@@ -68,5 +68,7 @@ image(seq_along(oat[,2]), 1, as.matrix(seq_along(oat[,2])),
 \seealso{
 \code{\link[grDevices]{colorRamp}}
 
+\code{\link[grDevices]{colorRampPalette}}
+
 \code{\link{lmv.linkage.plot}}
 }

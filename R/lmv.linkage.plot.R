@@ -342,25 +342,15 @@
 #'
 #' # make a df to pass qtl info
 #' qtldf <- data.frame(
-#'   chr = character(),
-#'   qtl = character(),
-#'   so = numeric(),
-#'   si = numeric(),
-#'   ei = numeric(),
-#'   eo = numeric(),
-#'   col = character(),
+#'   chr = "70349LG3",
+#'   qtl = "RTPE-Q1",
+#'   so = 36.6,
+#'   si = 37,
+#'   ei = 37,
+#'   eo = 38,
+#'   col = "red",
 #'   stringsAsFactors = FALSE
 #' )
-#' qtldf <- rbind(qtldf,
-#'                data.frame(
-#'                  chr = "70349LG3",
-#'                  qtl = "RTPE-Q1",
-#'                  so = 36.6,
-#'                  si = 37,
-#'                  ei = 37,
-#'                  eo = 38,
-#'                  col="red"
-#'                ))
 
 #' # make a list to pass label options
 #' flist <- list()
@@ -406,8 +396,8 @@
 #' ##
 #' outfile = file.path(tempdir(), "oat_Mrg01_YlGn.pdf")
 #'
-#' sectcoldf <- lmvdencolor(oat,colorin =
-#' colorRampPalette(RColorBrewer::brewer.pal(8, "YlGn"))(5))
+#' colorin <- colorRampPalette(RColorBrewer::brewer.pal(8, "YlGn"))(5)
+#' sectcoldf <- lmvdencolor(oat, colorin = colorin)
 #'
 #' lmv.linkage.plot(oat,outfile,denmap=TRUE,sectcoldf=sectcoldf)
 #' }

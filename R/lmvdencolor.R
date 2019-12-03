@@ -32,6 +32,7 @@
 #'        the color for the lowest density and the last value is the color
 #'        for the highest density.  Default is:
 #'        rev(colorRampPalette(RColorBrewer::brewer.pal(8, "Spectral"))(25))
+#' @seealso \code{\link[grDevices]{colorRampPalette}}
 #'
 #' @return a data frame that can be used as sectcoldf input on the lmv.linkage.plot
 #'        function to color the chromosome for a density map.

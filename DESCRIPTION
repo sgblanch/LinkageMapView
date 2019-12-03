@@ -2,7 +2,7 @@ Package: LinkageMapView
 Type: Package
 Title: Plot Linkage Group Maps with Quantitative Trait Loci
 Version: 2.1.2
-Authors@R: c(person("Lisa", "Ouellette", email = "louellet@uncc.edu", role = "aut"),
+Authors@R: c(person("Lisa", "Ouellette", role = "aut"),
     person("Rob", "Reid", email = "rreid2@uncc.edu", role = "ctb"),
     person("Steven", "Blanchard", email = "sgblanch@uncc.edu", role = "cre"))
 Maintainer: Steven Blanchard <sgblanch@uncc.edu>

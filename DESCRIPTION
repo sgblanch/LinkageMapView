@@ -28,3 +28,4 @@ Suggests:
     knitr
 RoxygenNote: 7.0.0
 VignetteBuilder: knitr
+Encoding: UTF-8
